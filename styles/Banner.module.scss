@@ -1,0 +1,43 @@
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250 204 21);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  @media (max-width: 768px) {
+    padding: 40px 0;
+  }
+
+  .Text {
+    padding: 0 25px;
+
+    .Title {
+      font-family: sans-serif;
+      font-size: 52px;
+      max-width: 576px;
+
+      span {
+        text-decoration: underline;
+      }
+    }
+
+    .Subtitle {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+
+  .Logo {
+    display: inline-flex;
+
+    @media (max-width: 768px) {
+      height: 320px;
+    }
+
+    @media (max-width: 414px) {
+      display: none;
+    }
+  }
+}
