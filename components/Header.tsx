@@ -3,7 +3,6 @@ import React from 'react';
 import styles from '../styles/Header.module.scss';
 
 function Header() {
-  console.log(styles);
   return (
     <header className={styles.Container}>
       <div className={styles.Links}>

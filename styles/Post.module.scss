@@ -1,0 +1,33 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 100%;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+
+  .Bottom {
+    width: calc(100% - 30px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    align-self: flex-start;
+
+    h3 {
+      font-size: 20px;
+      margin: 0;
+    }
+    p {
+      font-size: 13px;
+      margin: 0;
+      margin-top: 5px;
+    }
+
+    .Author {
+    }
+  }
+}
