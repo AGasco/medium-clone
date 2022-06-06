@@ -1,0 +1,80 @@
+.MainImage {
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+}
+
+.Title {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+}
+
+.Author {
+  display: flex;
+  align-items: center;
+
+  &__Image {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+
+  &__Text {
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  &__Name {
+    color: rgb(22 163 74);
+  }
+}
+
+.Article {
+  margin-top: 40px;
+
+  &__h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+
+  &__h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+
+  &__li {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+
+  &__link {
+    color: rgb(59 130 246);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    margin: 15px auto;
+    width: 90%;
+    object-fit: cover;
+  }
+}
